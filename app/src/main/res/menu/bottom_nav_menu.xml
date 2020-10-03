@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        android:visible="true"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_home"/>
+
+    <item
+        android:id="@+id/map"
+        android:title="@string/map"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_map"/>
+
+    <item
+        android:id="@+id/cart"
+        android:title="@string/cart"
+        android:visible="true"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_shopping_cart"/>
+
+    <item
+        android:id="@+id/setting"
+        android:title="@string/setting"
+        android:icon="@drawable/ic_action_build"/>
+
+    <item
+        android:id="@+id/email"
+        android:title="@string/email"
+        android:icon="@drawable/ic_action_email"/>
+</menu>
